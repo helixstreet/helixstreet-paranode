@@ -68,7 +68,7 @@ impl SubstrateCli for Cli {
 	}
 
 	fn native_runtime_version(_: &Box<dyn ChainSpec>) -> &'static RuntimeVersion {
-		&helixstreet_paranode_runtime::VERSION::VERSION
+		&helixstreet_paranode_runtime::VERSION
 	}
 }
 
