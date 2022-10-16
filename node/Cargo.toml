@@ -88,4 +88,4 @@ runtime-benchmarks = [
 	"helixstreet-paranode-runtime/runtime-benchmarks",
 	"polkadot-cli/runtime-benchmarks",
 ]
-try-runtime = ["parachain-template-runtime/try-runtime"]
+try-runtime = ["helixstreet-paranode-runtime/try-runtime"]
