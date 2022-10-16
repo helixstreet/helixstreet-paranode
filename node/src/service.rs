@@ -49,7 +49,7 @@ impl sc_executor::NativeExecutionDispatch for TemplateRuntimeExecutor {
 	}
 
 	fn native_version() -> sc_executor::NativeVersion {
-		helixstreet_paranode_runtime::api::native_version()
+		helixstreet_paranode_runtime::native_version()
 	}
 }
 
